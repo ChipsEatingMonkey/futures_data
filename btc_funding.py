@@ -1,7 +1,7 @@
 import csv
 
 
-counter = 0
+counter = 0 
 sum = 0
 with open('btc_rates.csv', newline='') as csvfile:
     reader = csv.reader(csvfile)
