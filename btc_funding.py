@@ -14,6 +14,6 @@ with open('btc_rates.csv', newline='') as csvfile:
         counter += 1
         sum += apy
         avg = 0
-        if sum != 0:
+        if sum != 0: 
             avg = sum / counter
         print ("the avg apy is " + str(avg) + " in the last " + str(counter) + " hours on date" + str(row[0]))
