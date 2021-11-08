@@ -11,7 +11,7 @@ with open('btc_rates_2.csv', newline='') as csvfile:
             continue
         num = float(row[2])
         apy = ((1+num)**(24 *365) - 1) * 100
-        counter += 1
+        counter += 1 
         sum += apy
         avg = 0
         
